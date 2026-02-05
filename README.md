@@ -5,11 +5,14 @@ It runs entirely client-side with no backend, and spawns bots when the simulated
 online player count is `0`.
 
 ## Live demo
-Open the hosted demo in your browser (after enabling GitHub Pages):
+Use one of the links below (replace `YOUR_GITHUB_USERNAME` and `krunker` if needed):
 
-[Launch the demo](https://YOUR_GITHUB_USERNAME.github.io/krunker/)
+- **Instant preview (no Pages setup):**
+  [Launch via HTMLPreview](https://htmlpreview.github.io/?https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/krunker/main/docs/index.html)
+- **GitHub Pages (recommended for a stable URL):**
+  [Launch via Pages](https://YOUR_GITHUB_USERNAME.github.io/krunker/)
 
-**Fixing 404s:**
+**Fixing 404s (Pages):**
 1. Replace `YOUR_GITHUB_USERNAME` with your GitHub username (or org).
 2. Enable Pages in **Settings → Pages**.
 3. Set **Source** to **Deploy from a branch**, then pick **main** + **/docs**.
