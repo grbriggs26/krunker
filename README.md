@@ -4,6 +4,13 @@ A lightweight, single-file browser game demo inspired by Krunker-style arenas.
 It runs entirely client-side with no backend, and spawns bots when the simulated
 online player count is `0`.
 
+## Live demo
+Open the hosted demo in your browser:
+
+[Launch the demo](https://htmlpreview.github.io/?https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/krunker/main/index.html)
+
+Replace `YOUR_GITHUB_USERNAME` with your GitHub username (or org) after pushing this repo.
+
 ## Run locally
 
 ### Quick start (open in browser)
