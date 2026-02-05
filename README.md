@@ -9,8 +9,12 @@ Open the hosted demo in your browser (after enabling GitHub Pages):
 
 [Launch the demo](https://YOUR_GITHUB_USERNAME.github.io/krunker/)
 
-**Fixing 404s:** replace `YOUR_GITHUB_USERNAME` with your GitHub username (or org),
-then enable Pages in **Settings → Pages** and select the **main** branch + **/root** folder.
+**Fixing 404s:**
+1. Replace `YOUR_GITHUB_USERNAME` with your GitHub username (or org).
+2. Enable Pages in **Settings → Pages**.
+3. Set **Source** to **Deploy from a branch**, then pick **main** + **/docs**.
+4. If your repo name isn’t `krunker`, update the URL to match your repo name.
+5. Wait a minute for GitHub Pages to deploy, then refresh.
 
 ## Run locally
 
