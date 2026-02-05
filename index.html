@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krunker-Inspired Arena (Offline Bot Fill)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hud">
+      <div class="hud__title">Krunker-Inspired Arena</div>
+      <div class="hud__stats">
+        <span>Online Players: <strong id="online-count">0</strong></span>
+        <span>Bot Fill: <strong id="bot-count">0</strong></span>
+      </div>
+      <div class="hud__stats">
+        <span>Score: <strong id="score">0</strong></span>
+        <span>Wave: <strong id="wave">1</strong></span>
+      </div>
+      <div class="hud__stats">
+        <span>Health: <strong id="health">100</strong></span>
+        <span>Ammo: <strong id="ammo">12</strong></span>
+      </div>
+      <div class="hud__controls">
+        <label>
+          Simulated Online Players
+          <input id="online-input" type="number" min="0" max="12" value="0" />
+        </label>
+        <button id="apply-online">Apply</button>
+        <button id="toggle-game">Start</button>
+        <button id="reset-game">Reset Match</button>
+      </div>
+      <p class="hud__hint">
+        Move with <strong>WASD</strong>, aim with mouse, and shoot with
+        <strong>Click</strong>. Reload with <strong>R</strong>.
+      </p>
+      <p class="hud__hint" id="status">Waiting to start...</p>
+    </div>
+    <canvas id="game"></canvas>
+    <script src="game.js"></script>
+  </body>
+</html>
