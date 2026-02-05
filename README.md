@@ -19,6 +19,10 @@ Use one of the links below (replace `YOUR_GITHUB_USERNAME` and `krunker` if need
 4. If your repo name isn’t `krunker`, update the URL to match your repo name.
 5. Wait a minute for GitHub Pages to deploy, then refresh.
 
+**Fixing 404s (HTMLPreview):**
+1. Replace `YOUR_GITHUB_USERNAME` and `krunker` to match your GitHub username/org and repo name.
+2. Make sure the branch matches your default branch (`main` or `master`) and that `docs/index.html` exists.
+
 ## Run locally
 
 ### Quick start (open in browser)
