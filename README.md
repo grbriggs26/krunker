@@ -14,8 +14,8 @@ Use one of the links below (replace `YOUR_GITHUB_USERNAME` and `krunker` if need
 
 **Fixing 404s (Pages):**
 1. Replace `YOUR_GITHUB_USERNAME` with your GitHub username (or org).
-2. Enable Pages in **Settings → Pages**.
-3. Set **Source** to **Deploy from a branch**, then pick **main** + **/docs**.
+2. Push this repo to GitHub and wait for the **Deploy demo to GitHub Pages** workflow to finish.
+3. Enable Pages in **Settings → Pages** and set **Source** to **GitHub Actions** (first-time only).
 4. If your repo name isn’t `krunker`, update the URL to match your repo name.
 5. Wait a minute for GitHub Pages to deploy, then refresh.
 
