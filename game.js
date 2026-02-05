@@ -353,6 +353,9 @@ function loop(now) {
 
   if (state.running && !state.gameOver) {
     updatePlayer(delta);
+    if (state.mouse.down) {
+      fireBullet();
+    }
     if (state.onlinePlayers === 0) {
       updateBots(delta);
       updateBullets(delta);
