@@ -368,6 +368,15 @@ function loop(now) {
 window.addEventListener("resize", resize);
 window.addEventListener("keydown", (event) => {
   const key = event.key.toLowerCase();
+  if (key === " " && event.target === document.body) {
+    if (!state.gameOver) {
+      state.running = !state.running;
+      toggleBtn.textContent = state.running ? "Pause" : "Start";
+      updateStatus();
+    }
+    event.preventDefault();
+    return;
+  }
   state.keys.add(key);
   if (key === "r" && state.player.reloadRemaining === 0) {
     state.player.reloadRemaining = state.player.reloadTime;
