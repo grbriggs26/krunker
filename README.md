@@ -20,6 +20,13 @@ python -m http.server 8000
 
 Then visit `http://127.0.0.1:8000`.
 
+### Preview helper
+If your code viewer supports running npm scripts, use:
+
+```bash
+npm run preview
+```
+
 ## Controls
 - **WASD**: Move
 - **Mouse**: Aim

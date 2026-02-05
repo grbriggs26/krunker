@@ -1,0 +1,7 @@
+{
+  "name": "krunker-inspired-arena",
+  "private": true,
+  "scripts": {
+    "preview": "python -m http.server 8000"
+  }
+}
